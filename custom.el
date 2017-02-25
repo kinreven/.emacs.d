@@ -26,7 +26,9 @@
 
 ;; Global mode
 (setq prelude-whitespace nil)
+(setq prelude-clean-whitespace-on-save nil)
 (setq prelude-flyspell nil)
+(setq prelude-guru nil)
 
 (normal-erase-is-backspace-mode 1)
 ;(global-linum-mode 1)
